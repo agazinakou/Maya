@@ -1,0 +1,636 @@
+body {
+    margin: 0
+}
+
+article {
+    margin: 0 auto;
+    max-width: 65em
+}
+
+.main {
+    background-color: #FFFFFF
+}
+
+.text-white {
+    color: white;
+}
+
+.main .header {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3em
+}
+
+.example {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.main div aside {
+    background-color: #594446;
+    margin-bottom: -3em;
+    margin-left: -5%;
+    margin-right: -5%;
+    margin-top: 3em;
+    padding: 2em 5%;
+    text-align: center
+}
+
+.box {
+    min-width: 120px;
+    min-height: 120px;
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.box:hover {
+    opacity: 1;
+    background-color:#ff1d5e0f;
+    border-radius: 10px;
+}
+
+aside .main div {
+    background-position: top
+}
+
+article p {
+    font-size: 1.3em
+}
+
+article code {
+    border-radius: 0.315em;
+    /*! padding:0 0.3em 0.040em; */
+    font-size: 0.9em;
+}
+
+article ul {
+    font-size: 1.1em;
+    line-height: 1.5;
+    list-style-type: square;
+    padding-left: 1em
+}
+
+@media (min-width: 1077px) {
+    body {
+        margin: 8px
+    }
+
+    .main {
+        margin-bottom: 2em
+    }
+
+    .main .header {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .main .header aside {
+        margin-left: -35%;
+        margin-right: -35%;
+        padding: 2em 20%
+    }
+}
+
+.anchor {
+    display: none;
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;
+    right: 100%;
+    top: 0
+}
+
+.anchor::before {
+    line-height: 3.2;
+    content: "∞";
+    color: #aa1111;
+    padding-right: 0.1em
+}
+
+.anchor:hover a {
+    text-decoration: none
+}
+
+div.header {
+    padding-top: 8em;
+    padding-bottom: 0.1em;
+    background-color: #aa1111;
+    background-image: url("/assets/images/bg-hero.png");
+    background-size: cover
+}
+
+div.header h1 {
+    color: #FEECD3
+}
+
+div.header h2 {
+    font-weight: normal
+}
+
+div.header a {
+    color: #342828
+}
+
+div.header .title {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 0em;
+    padding: 0px;
+}
+
+div.header .scripts {
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: -14em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 1em;
+    overflow-x: auto;
+    padding: 1em 1em 0em 1em;
+}
+
+div.answers {
+    margin-top: 12em;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #FFFFFF
+}
+
+div.answers h3 {
+    font-size: 1.7em;
+    color: #aa1111
+}
+
+div.answers a {
+    color: #faa930
+}
+
+div.answers p {
+    font-size: 1em
+}
+
+.good-practices {
+    background-color: #faa930;
+    background-image: url("/assets/images/bg-img1@2x-5008bd72.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 2em
+}
+
+.good-practices a.anchor {
+    color: #342828
+}
+
+.good-practices h3 {
+    font-size: 1.6em;
+    font-weight: bold
+}
+
+.good-practices ul {
+    font-size: 1em
+}
+
+.good-practices p a {
+    color: #FFFFFF;
+    text-decoration: underline
+}
+
+div.bad-practices {
+    color: #FFFFFF;
+    background-color: #3F2B2D;
+    background-image: url("/assets/images/bg-img2@2x-74899289.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 3em
+}
+
+div.bad-practices code {
+    color: #342828;
+    background-color: #bbaeaf;
+    border: none
+}
+
+div.bad-practices p a,
+div.bad-practices aside a {
+    color: #faa930;
+    text-decoration: underline
+}
+
+div.bad-practices aside a {
+    text-decoration: none
+}
+
+div.bad-practices h3 {
+    font-size: 1.7em;
+    color: #faa930;
+    float: left
+}
+
+div.bad-practices p {
+    clear: left;
+    font-size: 1em
+}
+
+div.effort {
+    padding-top: 2em;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #FFFFFF
+}
+
+div.effort h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #aa1111
+}
+
+div.frequently-asked-questions {
+    padding-top: 2em;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #FFFFFF
+}
+
+div.frequently-asked-questions h2 {
+    color: #aa1111
+}
+
+div.frequently-asked-questions h3 {
+    color: #aa1111;
+    margin-bottom: 1.5em;
+    font-size: 1.7em
+}
+
+div.frequently-asked-questions h4 {
+    cursor: pointer;
+    border-bottom: 1px solid rgba(63, 43, 45, 0.2);
+    padding: 0 1.1em 1.3em 0
+}
+
+div.frequently-asked-questions h4:after {
+    content: "⌄";
+    text-align: right;
+    float: right;
+    font-size: 2.8em;
+    line-height: 0.4;
+    margin-right: -0.3em
+}
+
+div.frequently-asked-questions h4.is-visible:after {
+    content: "-"
+}
+
+div.frequently-asked-questions h4~p {
+    display: none;
+    font-size: 0.9em
+}
+
+div.frequently-asked-questions h4~p.is-visible {
+    display: inherit
+}
+
+.footer {
+    font-size: .6em;
+    font-weight: normal;
+    border-top: 1px solid #e9e6e1;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #aa1111;
+    color: #FEECD3
+}
+
+.footer a {
+    color: #FFFFFF;
+    text-decoration: underline
+}
+
+.footer:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+@media (min-width: 1077px) {
+    div.answers {
+        padding-left: 25%;
+        padding-right: 25%
+    }
+
+    div.effort {
+        padding-left: 25%;
+        padding-right: 25%
+    }
+
+    div.frequently-asked-questions {
+        padding-left: 25%;
+        padding-right: 25%
+    }
+
+    .good-practices h3 {
+        width: 50%
+    }
+
+    .good-practices h4 {
+        padding-left: 15em
+    }
+
+    .good-practices ul {
+        padding-left: 16em
+    }
+
+    .bad-practices h3 {
+        width: 35%
+    }
+
+    .bad-practices h4,
+    .bad-practices p {
+        padding-left: 12em
+    }
+}
+
+.maya-size-1 {
+    width: 8.33%;
+}
+
+.maya-size-2 {
+    width: 16.66%;
+}
+
+.maya-size-3 {
+    /*! width: 25%; */
+}
+
+.maya-size-4 {
+    width: 33.33%;
+}
+
+.maya-size-5 {
+    width: 41.66%;
+}
+
+.maya-size-6 {
+    width: 50%;
+}
+
+.maya-size-7 {
+    width: 58.33%;
+}
+
+.maya-size-8 {
+    width: 66.66%;
+}
+
+.maya-size-9 {
+    width: 75%;
+}
+
+.maya-size-10 {
+    width: 83.33%;
+}
+
+.maya-size-11 {
+    width: 91.66%;
+}
+
+.maya-size-12 {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.maya-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="maya-size-"] {
+    float: left;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    font: 16px/1.4 "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #342828;
+    background-color: #FEECD3
+}
+
+a {
+    color: #aa1111;
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+h1 {
+    color: #aa1111;
+    font-size: 3.2em;
+    font-weight: bold;
+    font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 0;
+    line-height: 1;
+    text-transform: lowercase
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-top: 0.2em;
+    margin-bottom: 2em
+}
+
+h1,
+h2 {
+    text-align: left
+}
+
+h3 {
+    font-size: 1.3em;
+    font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 1em;
+    position: relative;
+    padding-left: .1em
+}
+
+h3:hover .anchor,
+h3:focus .anchor {
+    display: block
+}
+
+h3~p {
+    margin-top: 0
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    padding-top: 1em
+}
+
+.about {
+    text-align: center
+}
+
+.about {
+    margin-top: 0
+}
+
+header .menu,
+header .mark {
+    margin-bottom: -2em;
+    margin-top: 2em;
+    margin-right: 2em
+}
+
+header .mark {
+    margin-left: 3em;
+    float: left
+}
+
+.footer {
+    line-height: 2.2
+}
+
+.footer .mark {
+    float: left
+}
+
+.menu {
+    float: right
+}
+
+pre,
+code {
+    font-family: "Source Code Pro", monospace
+}
+
+@media (min-width: 1077px) {
+    h1 {
+        width: 100%;
+        text-transform: inherit;
+    }
+}
+
+
+.ml-57 .maya-dot-ball-rotate {
+    margin-left: 57px;
+}
+
+.spinner-preview {
+    align-self: center;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinner-preview .tap-to-view-code {
+    position: absolute;
+    width: auto;
+    font-size: 4px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 29, 94);
+    height: -8% !important;
+    margin-top: 89px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.box:hover .tap-to-view-code[data-my-1] {
+    font-size:12px;
+    opacity:1
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+
+  .m-0 {
+      margin:0px;
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px 16px 16px;
+    background-color: var(--maya-color);
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+
+
+  
