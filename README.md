@@ -1,6 +1,8 @@
 # Maya
 Maya is the lightest CSS framework, enabling simpler, more standards-compliant web design. No compiling or installing...just vanilla CSS
 
+Check out <https://agazinakou.github.io/Maya> for documentation and details.
+
 ## Getting started
 
 There are a couple ways to download Skeleton:
